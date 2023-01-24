@@ -50,7 +50,7 @@ def scrape_data(city):
     return df
 
 # Show the dataframe when the user selects a city
-if st.button("Scrape Data"):
+if st.button("Display the prayer times"):
     if city:
         df = scrape_data(city)
         st.dataframe(df.style.set_table_styles([
