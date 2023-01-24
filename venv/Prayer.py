@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import base64
 import os
-st.set_page_config(page_title="Prayer Times", page_icon=":mosque:", layout="centered")
+st.set_page_config(page_title="Prayer Times", page_icon="https://png.pngtree.com/png-vector/20190521/ourmid/pngtree-mosque-icon-for-personal-and-commercial-use-png-image_1044910.jpg", layout="centered")
 
 # Add a banner image
 st.image("https://png.pngtree.com/png-vector/20190521/ourmid/pngtree-mosque-icon-for-personal-and-commercial-use-png-image_1044910.jpg", width=100)
