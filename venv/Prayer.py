@@ -12,7 +12,7 @@ st.image("https://png.pngtree.com/png-vector/20190521/ourmid/pngtree-mosque-icon
 
 # Create a title and subtitle
 st.title("Morocco Prayers Times")
-st.subheader("Select a city to view the prayer times")
+st.subheader("Get your city prayers time displayed")
 
 # List of names
 names = ["casablanca", "rabat", "marrakech", "tanger","tetouan","fes","agadir","meknes","dakhla","oujda","nador"]
