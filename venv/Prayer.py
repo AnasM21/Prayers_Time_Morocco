@@ -11,7 +11,7 @@ st.set_page_config(page_title="Prayer Times Scraper", page_icon=":mosque:", layo
 st.image("https://png.pngtree.com/png-vector/20190521/ourmid/pngtree-mosque-icon-for-personal-and-commercial-use-png-image_1044910.jpg", width=100)
 
 # Create a title and subtitle
-st.title("Prayer Times Scraper")
+st.title("Morocco Prayers Times")
 st.subheader("Select a city to view the prayer times")
 
 # List of names
@@ -77,4 +77,5 @@ if st.checkbox("Show Prayer Times Guide"):
 
 # Add a support message
 st.success("May Allah guide us in our prayers.")
+st.success("Thank you for your time ! I will try to improve this app")
 
