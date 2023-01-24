@@ -57,9 +57,12 @@ if st.button("Display the prayer times"):
             {'selector': 'th', 'props': [('background-color', '#f7f7f9'), ('color', '#4d4d4d'), ('font-weight', 'bold')]},
             {'selector': 'td', 'props': [('background-color', '#f7f7f9'), ('color', '#4        d4d4d')]},
             {'selector': 'tr:nth-of-type(even)', 'props': [('background-color', '#f2f2f2')]},
-        ]))
+        ]),width=900)
     else:
         st.warning("Please select a city")
+
+# Boolean to resize the dataframe, stored as a session state variable
+
 
 # Add a prayer times guide
 if st.checkbox("Show Prayer Times Guide"):
